@@ -1,0 +1,50 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><b>Patient Registration Form</b></title>
+    <link rel="stylesheet" href="patient_css.css">
+</head>
+<body>
+  <center> <img src="hospital.jpeg" width = "250px" ></center> 
+  <center>
+    <form action="#"method="post">
+        <!-- <input type = "submit" value = "SUBMIT" onclick ="test_case1()" -->
+    </form>
+</center>
+  <div class="b">
+   <a href ="#home" >home</a>
+   <a href ="#about">about</a>
+   <a href="#service">service</a>
+   <a href ="#contact">Contact</a>
+      </div>
+   <fieldset><legend><b>PATIENT REGISTRATION FORM<b></legend>
+    <form action = "OP form">
+<label for = "name">Patient name</label>&nbsp<input type = "text" placeholder="Firstname">&nbsp<input type ="text" placeholder="Lastname"><br><br>
+<label>age</label> <input type="text" placeholder="enter age"><br><br>
+<label for ="Contact no">Contact no</label>&nbsp<input type = "text" placeholder="xxxxxxxxxx"><br><br>
+Gender: <label for ="male">Male</label>
+    <input type ="radio" id = "male" name = "gender" value ="male">
+<label for ="female">Female</label>
+    <input type ="radio" id = "female" name = "gender" value ="female"><br><br>
+<label for ="address">Patients'address</label>&nbsp<input type="text"><br><br>
+<label for ="Propose a Schedule date">Propose a Schedule date &nbsp</label><input type ="date"><br><br>
+<!-- <input type ="submit">  -->
+<input type = "submit" value = "SUBMIT" onclick ="test_case1()">
+&nbsp <input type = "reset">
+<h6>contact no :xxxxxxxxxx,address:-------</h6>
+     </form>
+    </fieldset>
+    <script>
+
+        function test_case1()
+        {
+            window.alert("Welcome to hospital")
+            document.write("Welcome to Vizag")
+        }
+      </script>
+      </fieldset>  
+</body>
+</html>

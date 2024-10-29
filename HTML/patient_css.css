@@ -1,0 +1,38 @@
+.b a:hover{
+    color:red;
+}
+.b{
+display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: rgb(64, 214, 61);
+    border-radius: 30px;
+}
+.b a{
+    padding: 15px 20px;
+    background-color:rgb(147, 224, 198);
+    border-radius: 300px;
+    border:2px solid white;
+}
+body{
+        background-color:rgb(170, 216, 216);
+}
+/*psuedo selectors*/
+input[type=text]
+{
+    border-radius: 20px;
+}
+input[type=submit]
+{
+    border-radius:  20px;
+}
+input[type=reset]{
+    border-radius: 20px;
+}
+input[type=date]
+{
+    border-radius: 20px;
+}
+fieldset{
+    background-color: bisque;
+}
